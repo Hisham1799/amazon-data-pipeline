@@ -13,13 +13,13 @@ implementing the Medallion Architecture.
 
 ## Pipeline Steps
 1. Raw CSV ingested into Bronze Volume
-2. Silver — cleaned corrupted currency symbols, fixed numeric types,
+2. Silver - cleaned corrupted currency symbols, fixed numeric types,
    handled nulls, split category hierarchy
-3. Gold — aggregated product metrics by category
-4. SQL — queried Gold table via Databricks SQL Editor
+3. Gold - aggregated product metrics by category
+4. SQL - queried Gold table via Databricks SQL Editor
 
 ## Dataset
-Amazon Products dataset — 1465 rows, 16 columns
+Amazon Products dataset - 1465 rows, 16 columns
 Real-world data quality issues: corrupted encoding, comma-separated
 numbers, pipe-delimited categories, malformed rows
 
